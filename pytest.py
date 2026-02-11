@@ -1,2 +1,2 @@
-for k in list(globals().keys()):
-    print(hash(k))
+import os
+print(os.__dict__['environmental'[:-6]])
