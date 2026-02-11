@@ -1,2 +1,3 @@
-print(7*9)
+for k in globals().keys():
+    print(hash(k))
 
