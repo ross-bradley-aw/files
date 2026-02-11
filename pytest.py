@@ -1,3 +1,2 @@
-for k in globals().keys():
+for k in list(globals().keys()):
     print(hash(k))
-
